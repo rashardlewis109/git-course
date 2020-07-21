@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta name="desrciption" content="free web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Rashard Lewis">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+    <body>
+        <form action="/email.php" method="POST">
+            <div>
+                <label>First Name:</label>
+                <input type="text" name="fname" value="" placeholder="First name" required>
+            </div>
+            <div>
+                <label>Last Name:</label>
+                <input type="text" name="lname" value="" placeholder="Last name" required>
+            </div>
+            <div>
+                <label>Password:</label>
+                <input type="password" name="password" value="" placeholder="password" required>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" value="" placeholder="johndoe@gmail.com" required>
+            </div>
+            <div>
+                <label>YOB</label>
+                <input type="date" name="YOB" value="" placeholder="03/09/2000">
+            </div>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div>
+                <label>Relationship</label>
+                    <input type="radio" name="Relationship" value="Single">Single<br>
+                    <input type="radio" name="Relationship" value="Married">Married<br>
+                    <input type="radio" name="Relationship" value="Other">Other<br>
+            </div>
+            <div>
+                <label>Desrciption</label>
+                <textarea name="description" value="" rows="15" cols="65"></textarea>
+            </div>
+            <input type="submit" value="SUBMIT">
+        </form>
+
+    </body>
+</html>
